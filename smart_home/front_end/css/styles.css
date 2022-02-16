@@ -1,0 +1,214 @@
+/* #example1 {
+    background: url(img_tree.gif) left top no-repeat, url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;
+    padding: 15px;
+    background-size: 50px, 130px, auto;
+  } */
+
+ 
+
+
+
+  .big-home{
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .inner-door {
+    position: absolute;
+    bottom: 158px;
+    right: 1700px;
+    width: 120px;
+    height: 240px
+
+  }
+
+   .washing-room{
+    position: relative; 
+     top: 0;
+     left: 0;
+  } 
+
+  .washing {
+    position: absolute;
+    bottom: 560px;
+    right: 740px;
+    width: 570px;
+    height: 800px;
+
+  } 
+
+  .washingBtn {
+    position: absolute;
+    bottom: -13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+  .smartphone {
+    position: absolute;
+    right: 0px;
+    top: 900px;
+    width: 360px;
+    height: 640px;
+    margin: auto;
+    border: 16px black solid;
+    border-top-width: 60px;
+    border-bottom-width: 60px;
+    border-radius: 36px;
+  }
+
+   .smartphone:before {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 5px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 10px;
+  } 
+ 
+  .smartphone:after {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    bottom: -65px;
+    transform: translate(-50%, -50%);
+    background: #333;
+    border-radius: 50%;
+  } 
+
+   .smartphone .content {
+    width: 360px;
+    height: 640px;
+    background: white;
+   }
+ /* #tv {
+     display: block; 
+     background: "tvbutton.jpg"; 
+     width: 50px;
+     height: 20px; 
+   }  
+
+  #washing {
+    display: block;
+    width: 100px;
+    height: 50px;
+  } 
+  #light {
+    display: block;
+    width: 100px;
+    height: 50px;
+  }
+
+  #temperature {
+    display: block;
+    width: 100px;
+    height: 50px;
+  }
+  #door {
+    display: block;
+    width: 100px;
+    height: 50px;
+  }
+
+  #alarm-system {
+    display: block;
+    width: 100px;
+    height: 50px;
+  }   */
+
+
+  .container {
+    position: relative;
+    top: 60px;
+    width: 40%;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    bottom: -13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .container .doorBtn {
+    position: absolute;
+    bottom: -13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+  .container .tempBtn {
+    position: absolute;
+    bottom: -13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+
+
+
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+
+
+ 
+
+  
+
+
+
+
+
+
